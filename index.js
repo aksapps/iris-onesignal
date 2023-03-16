@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const OneSignal = require('@onesignal/node-onesignal');
 const app = express();
